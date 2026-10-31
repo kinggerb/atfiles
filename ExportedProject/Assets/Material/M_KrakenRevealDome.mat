@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: M_KrakenRevealDome
+  m_Shader: {fileID: 4800000, guid: d74f1e0453b396e4e8a98dd56cccf204, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _OpacityMask:
+        m_Texture: {fileID: 2800000, guid: f24149f073e86d8498f9949e059f7e21, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _TextureMask:
+        m_Texture: {fileID: 2800000, guid: 1833b0d4d05ccc74ebc0ca9b1c5c5ffe, type: 3}
+        m_Scale: {x: 2, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Water_Colour:
+        m_Texture: {fileID: 2800000, guid: 9f746c26519caa94091f51b340459b7d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _Cutoff: 0.5
+    m_Colors:
+      _Colour: {r: 0.1068667, g: 0.4250057, b: 0.4666667, a: 1}
+      _OutlineColour: {r: 0.567423, g: 0.897895, b: 0.941, a: 1}

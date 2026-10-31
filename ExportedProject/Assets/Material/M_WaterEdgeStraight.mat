@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: M_WaterEdgeStraight
+  m_Shader: {fileID: 4800000, guid: d8131071bf2c9b1479450e92cf7ebd4f, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 101
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _EdgeMask:
+        m_Texture: {fileID: 2800000, guid: 2685b1a7b9b41e6428384c55b856e2fc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _EdgeMaskB:
+        m_Texture: {fileID: 2800000, guid: 2685b1a7b9b41e6428384c55b856e2fc, type: 3}
+        m_Scale: {x: 1, y: 1.5}
+        m_Offset: {x: 0, y: 0}
+      _EdgeMaskG:
+        m_Texture: {fileID: 2800000, guid: 2685b1a7b9b41e6428384c55b856e2fc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _OceanTintMap:
+        m_Texture: {fileID: 2800000, guid: 1a143e2cc55686245a7aaa084c933f2b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Water_Colour01:
+        m_Texture: {fileID: 2800000, guid: bad062652af99d645921af8a6c03a638, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _Cutoff: 0.5
+      _ExternalTime: 0
+      _PanSpeed: 0.3
+      _WaveHeight: 0.1
+      _XLength1: 0.2
+      _XLength2: 0.01
+      _XLength3: 0
+      _XSpeed1: -0.3
+      _XSpeed2: 0
+      _XSpeed3: 0
+      _ZLength1: 0.15
+      _ZLength2: 0.03
+      _ZLength3: 0
+      _ZSpeed1: 0.5
+      _ZSpeed2: 0
+      _ZSpeed3: 0
+    m_Colors:
+      _Colour: {r: 0.294134, g: 0.662609, b: 0.697, a: 1}
