@@ -3,6 +3,7 @@ name: Generate ALF
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   get-alf:
